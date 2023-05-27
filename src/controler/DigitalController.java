@@ -17,7 +17,7 @@ public class DigitalController {
 
 
         public List<Digital> showDB(){
-            System.out.println("Show data saved in DB: " + digitalService.getListFromDAO().toString());
+            return digitalService.getListFromDAO();
         }
 }
 

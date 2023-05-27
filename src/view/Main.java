@@ -14,7 +14,9 @@ public class Main {
 //        digitalController.insertDataToDB();
 
         // case 2 ->
-//        digitalController.showDB()
+//
+//        System.out.println("Show data saved in DB: " + digitalController.showDB().toString());
+
 
     }
 
