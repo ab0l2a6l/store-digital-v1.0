@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b26a0c5b-b7f4-4e2a-ba5b-e595d6b3dc74" name="Changes" comment=". . .">
-      <change beforePath="$PROJECT_DIR$/src/controler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/repository/DigitalDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository/DigitalDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/DigitalView.java" beforeDir="false" />
+    <list default="true" id="b26a0c5b-b7f4-4e2a-ba5b-e595d6b3dc74" name="Changes" comment="ezafe kardan Service&#10;delete kardan Edit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,8 @@
       <updated>1685132310898</updated>
       <workItem from="1685132312269" duration="158000" />
       <workItem from="1685174042871" duration="4454000" />
-      <workItem from="1685205563546" duration="2497000" />
+      <workItem from="1685205563546" duration="2920000" />
+      <workItem from="1685208964034" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary=". . .">
       <created>1685177709682</created>
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685177709682</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ezafe kardan Service&#10;delete kardan Edit">
+      <created>1685208332640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685208332640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=". . ." />
-    <option name="LAST_COMMIT_MESSAGE" value=". . ." />
+    <MESSAGE value="ezafe kardan Service&#10;delete kardan Edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="ezafe kardan Service&#10;delete kardan Edit" />
   </component>
 </project>

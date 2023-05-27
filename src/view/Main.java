@@ -7,17 +7,24 @@ import model.service.DigitalService;
 import java.util.Scanner;
 
 public class Main {
-    public static void mainForSave(String[] args) {
+    public static void main(String[] args) {
+        Scanner input = StaticScanner.getData();
+
         DigitalController digitalController = new DigitalController();
-        // print roo user ke mikhaay insert koni ya list ro bebini?
-        // case 1 ->
-//        digitalController.insertDataToDB();
 
-        // case 2 ->
-//
-//        System.out.println("Show data saved in DB: " + digitalController.showDB().toString());
+        for (; ; ) {
+            System.out.println("1.insert\n2.show list");
+            int requestForInsertOrShowList = input.nextInt();
+            switch (requestForInsertOrShowList) {
+                case 1 -> {
+                    System.out.println("insert: ");
+                    digitalController.insertDataToDB();
+                }
 
-
+                case 2 -> {
+                    System.out.println("Show data saved in DB: " + digitalController.showDB().toString());
+                }
+            }
+        }
     }
-
 }
