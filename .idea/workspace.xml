@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b26a0c5b-b7f4-4e2a-ba5b-e595d6b3dc74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sotre-digital-v1.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ShowDigitalData.java" afterDir="false" />
+    <list default="true" id="b26a0c5b-b7f4-4e2a-ba5b-e595d6b3dc74" name="Changes" comment=". . .">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -62,11 +58,23 @@
       <option name="presentableId" value="Default" />
       <updated>1685132310898</updated>
       <workItem from="1685132312269" duration="158000" />
-      <workItem from="1685174042871" duration="3004000" />
+      <workItem from="1685174042871" duration="4454000" />
     </task>
+    <task id="LOCAL-00001" summary=". . .">
+      <created>1685177709682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685177709682</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=". . ." />
+    <option name="LAST_COMMIT_MESSAGE" value=". . ." />
   </component>
 </project>
