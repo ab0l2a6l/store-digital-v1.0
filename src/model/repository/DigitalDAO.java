@@ -13,4 +13,9 @@ public class DigitalDAO implements InterfaceDAO {
         digitals.add(digital);
     }
 
+    @Override
+    public List<Digital> getListOfDigitalsFromDB() {
+        return digitals;
+    }
+
 }
