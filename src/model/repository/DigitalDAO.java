@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DigitalDAO implements InterfaceDAO {
-    List<Digital> digitals = new ArrayList<>();
+    static List<Digital> digitals = new ArrayList<>();
 
     @Override
     public void save(Digital digital) {
