@@ -1,6 +1,7 @@
 package model.repository;
 
 import model.entity.Digital;
+import view.DigitalView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,5 +17,9 @@ public class DigitalDAO implements InterfaceDAO {
 
     public void pickDigitalToSave(Digital digital) {
         this.digital = digital;
+    }
+
+    public void goToDigitalView(){
+        new DigitalView().showDetail(digitals);
     }
 }

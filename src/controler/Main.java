@@ -18,7 +18,6 @@ public class Main {
         digitalDAO.pickDigitalToSave(digital);
         digitalDAO.save();
 
-        DigitalView digitalView=new DigitalView();
-        digitalView.showDetail();
+        digitalDAO.goToDigitalView();
     }
 }
