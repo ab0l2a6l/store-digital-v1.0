@@ -10,4 +10,11 @@ public class Digital {
     public String getStoreWare() {
         return storeWare;
     }
+
+    @Override
+    public String toString() {
+        return "Digital{" +
+                "storeWare='" + storeWare + '\'' +
+                '}';
+    }
 }
