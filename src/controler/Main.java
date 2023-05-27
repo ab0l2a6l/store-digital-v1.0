@@ -3,6 +3,7 @@ package controler;
 import common.StaticScanner;
 import model.entity.Digital;
 import model.repository.DigitalDAO;
+import view.DigitalView;
 
 import java.util.Scanner;
 
@@ -16,5 +17,8 @@ public class Main {
         DigitalDAO digitalDAO = new DigitalDAO();
         digitalDAO.pickDigitalToSave(digital);
         digitalDAO.save();
+
+        DigitalView digitalView=new DigitalView();
+        digitalView.showDetail();
     }
 }
