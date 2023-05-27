@@ -1,7 +1,7 @@
 package controler;
 
 import common.StaticScanner;
-import model.Service;
+import model.service.Service;
 
 import java.util.Scanner;
 
