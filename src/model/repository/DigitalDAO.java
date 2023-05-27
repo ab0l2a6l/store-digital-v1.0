@@ -18,7 +18,7 @@ public class DigitalDAO implements InterfaceDAO {
         digitals.add(digital);
     }
 
-    public void pickDigitalToSave(Digital digital) {
+    public void setDigitalToSave(Digital digital) {
         this.digital = digital;
     }
 }

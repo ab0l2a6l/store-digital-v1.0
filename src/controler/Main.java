@@ -3,9 +3,9 @@ package controler;
 import common.StaticScanner;
 import model.entity.Digital;
 import model.repository.DigitalDAO;
+import model.repository.InterfaceDAO;
 import view.DigitalView;
 
-import javax.swing.text.View;
 import java.util.Scanner;
 
 public class Main {
@@ -16,7 +16,7 @@ public class Main {
         digital.setStoreWare(input.nextLine());
 
         DigitalDAO digitalDAO = new DigitalDAO();
-        digitalDAO.pickDigitalToSave(digital);
+        digitalDAO.setDigitalToSave(digital);
         digitalDAO.save();
 
         DigitalView.showDetail(digitalDAO.getDigitals());
