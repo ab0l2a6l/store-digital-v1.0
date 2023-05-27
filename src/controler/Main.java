@@ -1,24 +1,24 @@
 package controler;
 
 import common.StaticScanner;
-import model.service.Service;
+import model.service.DigitalService;
 
 import java.util.Scanner;
 
 public class Main {
-    static Service service = new Service();
+    static DigitalService digitalService = new DigitalService();
     public static void mainForSave(String[] args) {
         Scanner input = StaticScanner.getData();
 
-        Service service = new Service();
-        service.digitalService(input.nextLine());
+        DigitalService digitalService = new DigitalService();
+        digitalService.digitalService(input.nextLine());
 
 
     }
 
 
     public static void mainForRead(String[] args) {
-        System.out.println("Show data saved in DB: " + service.getListFromDAO().toString());
+        System.out.println("Show data saved in DB: " + digitalService.getListFromDAO().toString());
     }
 
 

@@ -6,7 +6,7 @@ import model.repository.InterfaceDAO;
 
 import java.util.List;
 
-public class Service {
+public class DigitalService implements DigitalServiceInteface{
     InterfaceDAO interfaceDAO = new DigitalDAO();
     public void digitalService(String carName) {
         Digital digital = new Digital();
