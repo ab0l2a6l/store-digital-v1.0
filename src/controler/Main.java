@@ -16,8 +16,7 @@ public class Main {
         digital.setStoreWare(input.nextLine());
 
         DigitalDAO digitalDAO = new DigitalDAO();
-        digitalDAO.setDigitalToSave(digital);
-        digitalDAO.save();
+        digitalDAO.save(digital);
 
         DigitalView.showDetail(digitalDAO.getDigitals());
     }
