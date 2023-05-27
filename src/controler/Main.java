@@ -5,6 +5,7 @@ import model.entity.Digital;
 import model.repository.DigitalDAO;
 import view.DigitalView;
 
+import javax.swing.text.View;
 import java.util.Scanner;
 
 public class Main {
@@ -18,6 +19,6 @@ public class Main {
         digitalDAO.pickDigitalToSave(digital);
         digitalDAO.save();
 
-        digitalDAO.goToDigitalView();
+        DigitalView.showDetail(digitalDAO.getDigitals());
     }
 }

@@ -10,6 +10,9 @@ public class DigitalDAO implements InterfaceDAO {
     List<Digital> digitals = new ArrayList<>();
     Digital digital;
 
+    public List<Digital> getDigitals(){
+        return digitals;
+    }
     @Override
     public void save() {
         digitals.add(digital);
@@ -17,9 +20,5 @@ public class DigitalDAO implements InterfaceDAO {
 
     public void pickDigitalToSave(Digital digital) {
         this.digital = digital;
-    }
-
-    public void goToDigitalView(){
-        new DigitalView().showDetail(digitals);
     }
 }
